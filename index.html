@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>TextoPic | AI Text-to-Image Generator HTML Website Template</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.jpg">
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Templates">
+    <meta name="keywords" content="Career Education">
+    <meta name="author" content="Pentabay">
+    <meta name="viewport" content="width=device-width">
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Style link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="../../../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link href="../../../unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="backTop" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+    <!--header-->
+    <header>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid" src="assets/images/logo.png" alt="img">
+                    <!-- <h3>TextoPic</h3> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav me-auto ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/about-us.html"> About Us </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/features.html"> Features </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown"> Pages </a>
+                            <ul class="dropdown-menu animate slideIn">
+                                <li><a class="dropdown-item" href="pages/our-team.html"> Our Team</a></li>
+                                <li><a class="dropdown-item" href="pages/error.html"> 404 Error </a></li>
+                                <li><a class="dropdown-item" href="pages/faq.html"> FAQ'S </a></li>
+                                <li><a class="dropdown-item" href="pages/coming-soon.html"> Coming Soon </a></li>
+                                <li><a class="dropdown-item" href="pages/terms-and-conditions.html"> Terms and
+                                        Conditions </a></li>
+                                <li><a class="dropdown-item" href="pages/privacy-policy.html"> Privacy Policy </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/pricing.html"> Pricing </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" data-bs-toggle="dropdown"> Blog </a>
+                            <ul class="dropdown-menu animate slideIn">
+                                <li><a class="dropdown-item" href="pages/blog-grid.html"> Blog Grid</a></li>
+                                <li><a class="dropdown-item" href="pages/blog-left-sidebar.html"> Blog Left Sidebar </a>
+                                </li>
+                                <li><a class="dropdown-item" href="pages/blog-right-sidebar.html"> Blog Right Sidebar
+                                    </a></li>
+                                <li><a class="dropdown-item" href="pages/blog-details.html"> Blog Details </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact-us.html"> Contact Us </a>
+                        </li>
+                    </ul>
+                    <div class="header-btns ms-5">
+                        <a class="theme-btn login-btn" href="#">Login</a>
+                        <a class="theme-btn btn-main ms-3" href="#">Start Convert</a>
+                    </div>
+                </div> <!-- navbar-collapse.// -->
+            </div> <!-- container-fluid.// -->
+        </nav>
+    </header>
+
+    <!-- content -->
+    <div class="main-content-wrapper">
+        <!-- banner -->
+        <div class="main-banner-container">
+            <div class="banner-blurbg-small">
+                <img class="img-fluid" src="assets/images/EllipseSmall.png" alt="img">
+            </div>
+            <div class="banner-blurbg-large">
+                <img class="img-fluid" src="assets/images/EllipseLarge.png" alt="img">
+            </div>
+            <div class="container h-100">
+                <div class="row align-items-center justify-content-center h-100">
+                    <div class="col-12 col-md-12 col-lg-6 h-100">
+                        <div class="main-banner-wrapper">
+                            <h4 class="banner-small-heading">WELCOME TO TEXTOPIC</h4>
+                            <h1 class="banner-heading">Lorem ipsum<span>Boom & Cool</span> posts10X faster
+                                <span>with Design</span>.</h1>
+                            <p class="banner-small-description">Elegantly structured content with references in just a
+                                few clicks.</p>
+                            <div class="banner-btns">
+                                <a class="theme-btn btn-main" href="pages/contact-us.html">Sign Up With Google</a>
+                                <a class="theme-btn btn-white" href="pages/contact-us.html">Sign Up With email <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                            <p class="banner-note"><span>*100% free</span> to get started. No credit card required.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 h-100 d-none d-md-none d-lg-block">
+                        <div class="main-banner-image">
+                            <img class="img-fluid" src="assets/images/banner-img.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- search bar -->
+        <div class="search-bar-container">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-10">
+                        <div class="search-bar-wrapper">
+                            <input class="search-bar-input" type="text"
+                                placeholder="Describe what you want or directly click the “Generate” button to access tool.">
+                            <button class="theme-btn btn-main" type="button">Generate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- partners -->
+        <div class="section partner">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-11 col-lg-11">
+                        <div class="carosel-root">
+                            <div class="carosel partner">
+                                <div class="carosel-item">
+                                    <div class="partner-img">
+                                        <img class="img-fluid" src="assets/images/logo-1.png" alt="img">
+                                    </div>                                   
+                                </div>
+                                <div class="carosel-item">
+                                    <div class="partner-img">
+                                        <img class="img-fluid" src="assets/images/logo-2.png" alt="img">
+                                    </div>
+                                </div>
+                                <div class="carosel-item">
+                                    <div class="partner-img">
+                                        <img class="img-fluid" src="assets/images/logo-3.png" alt="img">
+                                    </div>                                   
+                                </div>
+                                <div class="carosel-item">
+                                    <div class="partner-img">
+                                        <img class="img-fluid" src="assets/images/logo-4.png" alt="img">
+                                    </div>                                  
+                                </div>
+                                <div class="carosel-item">
+                                    <div class="partner-img">
+                                        <img class="img-fluid" src="assets/images/logo-5.png" alt="img">
+                                    </div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-11 col-lg-11">
+                        <div class="partner-content-wrapper">
+                            <h4>Join hundreds of teams that rely on our AI Article Writer to create better content faste
+                            </h4>
+                            <a class="theme-btn btn-main" href="pages/contact-us.html">Start Free Trial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <div class="section about">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <div class="section-heading-wrapper">
+                            <h2 class="section-main-heading">Increase profits and efficiency with our AI text to image
+                                generator</h2>
+                            <p class="section-heading-description">An AI image generator can help businesses increase
+                                profits by improving their content marketing strategy. By leveraging the power of
+                                artificial intelligence a faster rate than ever before.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="about-blurbg-img">
+                        <img class="img-fluid" src="assets/images/EllipseLarge.png" alt="img">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mb-4">
+                        <div class="aboutimg-wrapper">
+                            <img class="img-fluid" src="assets/images/home-about.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mb-4">
+                        <div class="about-content-wrapper">
+                            <h3 class="section-small-heading">Introducing AI Image Generator</h3>
+                            <p>The power of words is limitless! With the potential to craft captivating imagery, use
+                                your imagination to turn words into amazing visuals that can share a story never told
+                                before. Exploring or creating characters that come to life in your head, delving into
+                                the complexities of storytelling, is a very rewarding experience.</p>
+                            <ul class="about-content-list">
+                                <li>
+                                    <i class="fa fa-check-circle"></i>
+                                    <p>The AI-generated text is always fresh and relevant.</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-check-circle"></i>
+                                    <p>The AI-generated text is guaranteed to be unique and original.</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-check-circle"></i>
+                                    <p>The AI-generated text is SEO-friendly and authoritative.</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-check-circle"></i>
+                                    <p>AI text generators can help businesses create content that is more
+                                        engaging and personalized to their customers' needs</p>
+                                </li>
+
+                            </ul>
+                            <a class="theme-btn btn-main" href="pages/contact-us.html">Start Free Trial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- how to -->
+        <div class="section howto">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <div class="section-heading-wrapper">
+                            <h2 class="section-main-heading">How to generate AI images</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center position-relative">
+                    <div class="howto-blurbg-img">
+                        <img class="img-fluid" src="assets/images/EllipseSmall.png" alt="img">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="howto-card">
+                            <h3>Open photo editor</h3>
+                            <p>In the photo editor find the AI Image Generator tool and enter your text prompt.</p>
+                            <span class="howto-count">1</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="howto-card">
+                            <h3>Generate AI image</h3>
+                            <p>In the photo editor find the AI Image Generator tool and enter your text prompt.</p>
+                            <span class="howto-count">2</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="howto-card">
+                            <h3>Customize image</h3>
+                            <p>In the photo editor find the AI Image Generator tool and enter your text prompt.</p>
+                            <span class="howto-count">3</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="howto-card">
+                            <h3>Download design</h3>
+                            <p>In the photo editor find the AI Image Generator tool and enter your text prompt.</p>
+                            <span class="howto-count">4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- info card 1 -->
+        <div class="section infocard pt-4">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-11 col-lg-11">
+                        <div class="infocard-container">
+                            <div class="infocard-blurbg-img">
+                                <img class="img-fluid" src="assets/images/EllipseSmall.png" alt="img">
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="infocard-content-wrapper">
+                                        <h3>Text-to-Image AI Generator Introduction</h3>
+                                        <p>TTIs AI image generator from text brings your concept art to
+                                            life online in just seconds. Text to image tool, allows you to take
+                                            text prompts and turn them into matching images. Enter text
+                                            prompts like " a garfield princess", transform your creative ideas
+                                            into stunning images with just a few clicks. With the power of
+                                            our AI image creator at your fingertips, the possibilities for
+                                            limitless creativity are endless!</p>
+                                        <a class="theme-btn btn-main" href="pages/contact-us.html">Start Free Trial</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="infocard-image-wrapper">
+                                        <img class="img-fluid" src="assets/images/img-3.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- info card 2 -->
+        <div class="section infocard pt-4">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-11 col-lg-11">
+                        <div class="infocard-container ictwo">
+                            <div class="infocard-blurbg-img">
+                                <img class="img-fluid" src="assets/images/EllipseSmall.png" alt="img">
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="infocard-image-wrapper">
+                                        <img class="img-fluid" src="assets/images/img-5.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="infocard-content-wrapper">
+                                        <h3>Making AI Image is Easy and Safe</h3>
+                                        <p>TTI's AI image generator from text brings your concept art to
+                                            life online in just seconds. Text to image tool, allows you to take
+                                            text prompts and turn them into matching images. Enter text
+                                            prompts like " a garfield princess", transform your creative ideas
+                                            into stunning images with just a few clicks. With the power of
+                                            our AI image creator at your fingertips, the possibilities for
+                                            limitless creativity are endless!</p>
+                                        <a class="theme-btn btn-main" href="pages/contact-us.html">Start Free Trial</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- images -->
+        <div class="section ai-images">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <div class="section-heading-wrapper">
+                            <h2 class="section-main-heading mb-0">AI images in various styles</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-tp1-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-tp1" type="button" role="tab" aria-controls="pills-tp1"
+                                    aria-selected="true">All</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-tp2-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-tp2" type="button" role="tab" aria-controls="pills-tp2"
+                                    aria-selected="false">Oil Painting</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-tp3-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-tp3" type="button" role="tab" aria-controls="pills-tp3"
+                                    aria-selected="false">Hyperrealism</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-tp4-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-tp4" type="button" role="tab" aria-controls="pills-tp4"
+                                    aria-selected="false">Cyberpunk</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-tp5-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-tp5" type="button" role="tab" aria-controls="pills-tp5"
+                                    aria-selected="false">Picasso</button>
+                            </li>
+                        </ul>
+
+                        <p class="ai-images-info-text">Explore AI-generated images in diverse styles, unveiling a
+                            captivating<br>
+                            collection of visuals crafted by AI.</p>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-tp1" role="tabpanel"
+                                aria-labelledby="pills-tp1-tab">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/img-6.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/img-7.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/img-3.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/img-4.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-tp2" role="tabpanel" aria-labelledby="pills-tp2-tab">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/oil-paint-1.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/oil-paint-2.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/oil-paint-3.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/oil-paint-4.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-tp3" role="tabpanel" aria-labelledby="pills-tp3-tab">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/hyper-1.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/hyper-2.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/hyper-3.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/hyper-4.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-tp4" role="tabpanel" aria-labelledby="pills-tp4-tab">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/cyber-1.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/cyber-2.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/cyber-3.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/cyber-4.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-tp5" role="tabpanel" aria-labelledby="pills-tp5-tab">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/picasso-2.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/picasso-3.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/picasso-4.jpg" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                                        <div class="ai-image">
+                                            <img class="img-fluid" src="assets/images/picasso-1.webp" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <a class="theme-btn btn-secondary" href="pages/contact-us.html">Try Text To Image</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- occasion -->
+        <div class="section occasion">
+            <div class="occasion-blurbg-img">
+                <img class="img-fluid" src="assets/images/Ellipseleft-half.png" alt="img">
+            </div>
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <div class="section-heading-wrapper">
+                            <h2 class="section-main-heading mb-0">AI Image Generator for All Occasions</h2>
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="occasion-card">
+                                <img class="img-fluid" src="assets/images/creative.png" alt="img">
+                                <h3>For content creators</h3>
+                                <p>Generate eye-catching photos from the text in your fingers, and screate content
+                                    faster.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="occasion-card">
+                                <img class="img-fluid" src="assets/images/portfolio.png" alt="img">
+                                <h3>For business</h3>
+                                <p>Generate eye-catching photos from the text in your fingers, and screate content
+                                    faster.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="occasion-card">
+                                <img class="img-fluid" src="assets/images/paint.png" alt="img">
+                                <h3>For artists</h3>
+                                <p>Generate eye-catching photos from the text in your fingers, and screate content
+                                    faster.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial -->
+        <div class="section testimonial">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <div class="section-heading-wrapper">
+                            <h2 class="section-main-heading">See what AI writers have to say</h2>
+                            <p class="section-heading-description">This is a straightforward and commonly used header
+                                that lets customers know they are looking at different pricing options.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center mt-4">
+                    <div class="testimonial-blurbg-img">
+                        <img class="img-fluid" src="assets/images/EllipseLarge.png" alt="img">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-author-info">
+                                <div class="tai-image">
+                                    <img class="img-fluid" src="assets/images/our-team-1.jpg" alt="img">
+                                </div>
+                                <div class="tai-info">
+                                    <h4>Ozioma Egwuonwu</h4>
+                                    <p>CEO at Hire & Retain</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-review">
+                                <h3>Great app - Easy to use</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                               </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-author-info">
+                                <div class="tai-image">
+                                    <img class="img-fluid" src="assets/images/our-team-2.jpg" alt="img">
+                                </div>
+                                <div class="tai-info">
+                                    <h4>Willaim Smith</h4>
+                                    <p>Academian</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-review">
+                                <h3>Very Useful</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-author-info">
+                                <div class="tai-image">
+                                    <img class="img-fluid" src="assets/images/our-team-3.jpg" alt="img">
+                                </div>
+                                <div class="tai-info">
+                                    <h4>Mary Joe</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-review">
+                                <h3>Awesome app saved my time</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-author-info">
+                                <div class="tai-image">
+                                    <img class="img-fluid" src="assets/images/our-team-4.jpg" alt="img">
+                                </div>
+                                <div class="tai-info">
+                                    <h4>John Kosak</h4>
+                                    <p>Student</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-review">
+                                <h3>Excellent Features</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-author-info">
+                                <div class="tai-image">
+                                    <img class="img-fluid" src="assets/images/our-team-5.jpg" alt="img">
+                                </div>
+                                <div class="tai-info">
+                                    <h4>Arnold Willy</h4>
+                                    <p>CEO at Hire & Retain</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-review">
+                                <h3>Easy to Use</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-author-info">
+                                <div class="tai-image">
+                                    <img class="img-fluid" src="assets/images/our-team-6.jpg" alt="img">
+                                </div>
+                                <div class="tai-info">
+                                    <h4>Kati John</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-review">
+                                <h3>Brilliant Work</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- faq -->
+        <div class="section faq">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-7">
+                        <div class="section-heading-wrapper">
+                            <h2 class="section-main-heading">Questions & Answers</h2>
+                            <p class="section-heading-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Q. What is a copy?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div style="color:white;" class="accordion-body">
+                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Q. Does CopyGen to write long articles?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div style="color:white;" class="accordion-body">
+                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Q. Is the generated content original?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div style="color:white;" class="accordion-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Q. Do you have wordpress plugin?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div style="color:white;" class="accordion-body">
+                                        A. Yes, you can write long articel for your blog posts, product descriptions or
+                                        any long article with CopyGen. We're always
+                                        updating our template and tools, so let us know what are expecting!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- blog -->
+        <div class="section blog">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <div class="section-heading-wrapper">
+                            <h2 class="section-main-heading mb-0">Learn more about Artificial Intelligence</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center mt-4">
+                    <div class="blog-blurbg-img">
+                        <img class="img-fluid" src="assets/images/EllipseLarge.png" alt="img">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img class="img-fluid" src="assets/images/blog-1.jpg" alt="img">
+                            </div>
+                            <div class="blog-info">
+                                <div class="blog-info-top">
+                                    <h4>BRANDING</h4>
+                                    <p>2 weeks ago</p>
+                                </div>
+                                <div class="blog-info-bottom">
+                                    <a href="pages/blog-details.html">
+                                        <h3>Analytics leads to lifesaving cancer therapies</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img class="img-fluid" src="assets/images/blog-2.jpg" alt="img">
+                            </div>
+                            <div class="blog-info">
+                                <div class="blog-info-top">
+                                    <h4>BRANDING</h4>
+                                    <p>2 weeks ago</p>
+                                </div>
+                                <div class="blog-info-bottom">
+                                    <a href="pages/blog-details.html">
+                                        <h3>Three steps for conquering the last mile of analytics</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img class="img-fluid" src="assets/images/blog-2.webp" alt="img">
+                            </div>
+                            <div class="blog-info">
+                                <div class="blog-info-top">
+                                    <h4>BRANDING</h4>
+                                    <p>2 weeks ago</p>
+                                </div>
+                                <div class="blog-info-bottom">
+                                    <a href="pages/blog-details.html">
+                                        <h3>As AI accelerates, focus on 'road' conditions</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="footer-about">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/logo.png" alt="img">
+                        </a>
+                        <p>Earn up to 30% Lifetime <br>
+                            Commission as an Affiliate!</p>
+                        <a class="theme-btn btn-secondary ms-0" href="#">Become an Affliate</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mb-4">
+                    <div class="footer-links">
+                        <h3 class="footer-heading">USE CASE</h3>
+                        <ul>
+                            <li>
+                                <a href="pages/features.html">AI Writer</a>
+                            </li>
+                            <li>
+                                <a href="pages/features.html">AI Articel Writer</a>
+                            </li>
+                            <li>
+                                <a href="pages/features.html">Content Generator</a>
+                            </li>
+                            <li>
+                                <a href="pages/features.html">Content Rewriter</a>
+                            </li>
+                            <li>
+                                <a href="pages/features.html">Blog Post Writer</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 mb-4">
+                    <div class="footer-links">
+                        <h3 class="footer-heading">About</h3>
+                        <ul>
+                            <li>
+                                <a href="pages/pricing.html">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="pages/contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="pages/faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="pages/privacy-policy.html">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="pages/terms-and-conditions.html">Terms & Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="footer-conatct">
+                        <h3 class="footer-heading">Contact Us</h3>
+                        <p>If you need help using our service, or have a
+                            question about it, please feel free
+                            to contact us.</p>
+                        <ul>
+                            <li><a href="+880 1761-482306">+880 1761-482306</a></li>
+                            <li><a href="hellojunayed.bd@gmail.com">hellojunayed.bd@gmail.com</a></li>
+                            <li><a href="#">1234, New Winston Road
+                                    New York, NY 1234</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="footer-bottom">
+                        <p>© <script>var year = new Date(); document.write(year.getFullYear());</script>Designed by <span>ASHIKUR RAHMAN</span></p>
+                        <ul>
+                            <li>
+                                <a href="https://web.facebook.com/helloashik.sa"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/Junayed1259"><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/ashikur-rahman-270766294/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/hello_ashik_/"><i class="fa fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script tag -->
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="../../../cdn.jsdelivr.net/npm/%40popperjs/core%402.11.8/dist/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../../../cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="../../../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="../../../unpkg.com/aos%402.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
